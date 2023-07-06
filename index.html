@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/styles.css">
+
+  <title>Crypt X</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=MuseoModerno:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            greenPrimary: '#00BDB0',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="px-4 py-8 w-screen">
+    <div class="text-center mb-8">
+      <h2 class="text-2xl font-semibold">Crie uma conta</h2>
+      <p class="text-sm front-medium">Crie uma conta para obter benefícios especiais</p>
+    </div>
+    <form action="" class="bg-greenPrimary px-4 pt-2 pb-[64px] flex flex-col gap-6 rounded-[30px] min-h-[670px]">
+      <div class="flex flex-col gap-2 text-[#D6D7D8]">
+        <label for="first-name">Primeiro nome</label>
+        <input type="text" name="" class="rounded-[5px] border border-white bg-white/40 px-4 py-3" id="first-name" />
+      </div>
+      <div class="flex flex-col gap-2 text-[#D6D7D8]">
+        <label for="first-name">Primeiro nome</label>
+        <input type="text" name="" class="rounded-[5px] border border-white bg-white/40 px-4 py-3" id="first-name" />
+      </div>
+      <div class="flex flex-col gap-2 text-[#D6D7D8]">
+        <label for="email">E-mail</label>
+        <input type="text" name="" class="rounded-[5px] border border-white bg-white/40 px-4 py-3" id="email" />
+      </div>
+      <div class="flex flex-col gap-2 text-[#D6D7D8]">
+        <label for="password">Senha</label>
+        <input type="text" name="" class="rounded-[5px] border border-white bg-white/40 px-4 py-3" id="password" />
+      </div>
+      <div class="flex flex-col gap-2 text-[#D6D7D8]">
+        <label for="phone">Telefone</label>
+        <input type="text" name="" class="rounded-[5px] border border-white bg-white/40 px-4 py-3" id="phone" />
+      </div>
+      <div class="flex justify-end">
+        <input type="submit" value="Criar conta" class="text-greenPrimary bg-white rounded-[12px] px-8 py-3 max-w-[148px]" id="submit">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
